@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>02625756-44D2-452F-9EF9-4A3741778620</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Algorhythm</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C1CD0E8BF2B3C6CF94095FAAA33F003935D0CE18</key>
+		<string>https://github.com/tfrth/playlist-browser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Algorhythm.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C1CD0E8BF2B3C6CF94095FAAA33F003935D0CE18</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tfrth/playlist-browser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C1CD0E8BF2B3C6CF94095FAAA33F003935D0CE18</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C1CD0E8BF2B3C6CF94095FAAA33F003935D0CE18</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Algorhythm</string>
+		</dict>
+	</array>
+</dict>
+</plist>

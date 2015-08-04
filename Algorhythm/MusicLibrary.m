@@ -8,7 +8,7 @@
 
 #import "MusicLibrary.h"
 
-NSString *const kTitle = @"title";
+NSString *const kTitle = @"title";               //defined constants
 NSString *const kDescription = @"description";
 NSString *const kIcon = @"icon";
 NSString *const kLargeIcon = @"largeIcon";
@@ -23,7 +23,7 @@ NSString *const kArtists = @"artists";
     self = [super init];
     if (self) {
         
-        self.library = @[@{kTitle: @"Rise and Shine",
+        _library = @[@{kTitle: @"Rise and Shine",
                            kDescription: @"Get your morning going by singing along to these classic tracks as you hit the shower bright and early!",
                            kIcon: @"coffee.pdf",
                            kLargeIcon: @"coffee_large.pdf",

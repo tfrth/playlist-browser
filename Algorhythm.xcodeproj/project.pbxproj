@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CC1435001B6BE57F0004605F /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1434FF1B6BE57F0004605F /* PlaylistDetailViewController.m */; };
 		CC1435031B6C2A220004605F /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1435021B6C2A220004605F /* MusicLibrary.m */; };
+		CC4A100E1B716D5B00164DC6 /* PlayList.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4A100D1B716D5B00164DC6 /* PlayList.m */; };
 		CCBC88AE1B6AE825002FBFF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC88AD1B6AE825002FBFF9 /* main.m */; };
 		CCBC88B11B6AE825002FBFF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC88B01B6AE825002FBFF9 /* AppDelegate.m */; };
 		CCBC88B41B6AE825002FBFF9 /* PlaylistMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC88B31B6AE825002FBFF9 /* PlaylistMasterViewController.m */; };
@@ -33,6 +34,8 @@
 		CC1434FF1B6BE57F0004605F /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
 		CC1435011B6C2A220004605F /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
 		CC1435021B6C2A220004605F /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
+		CC4A100C1B716D5B00164DC6 /* PlayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayList.h; sourceTree = "<group>"; };
+		CC4A100D1B716D5B00164DC6 /* PlayList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayList.m; sourceTree = "<group>"; };
 		CCBC88A81B6AE825002FBFF9 /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBC88AC1B6AE825002FBFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCBC88AD1B6AE825002FBFF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				CC1434FF1B6BE57F0004605F /* PlaylistDetailViewController.m */,
 				CC1435011B6C2A220004605F /* MusicLibrary.h */,
 				CC1435021B6C2A220004605F /* MusicLibrary.m */,
+				CC4A100C1B716D5B00164DC6 /* PlayList.h */,
+				CC4A100D1B716D5B00164DC6 /* PlayList.m */,
 				CCBC88B51B6AE825002FBFF9 /* Main.storyboard */,
 				CCBC88B81B6AE825002FBFF9 /* Images.xcassets */,
 				CCBC88BA1B6AE825002FBFF9 /* LaunchScreen.xib */,
@@ -234,6 +239,7 @@
 				CCBC88B11B6AE825002FBFF9 /* AppDelegate.m in Sources */,
 				CCBC88AE1B6AE825002FBFF9 /* main.m in Sources */,
 				CC1435031B6C2A220004605F /* MusicLibrary.m in Sources */,
+				CC4A100E1B716D5B00164DC6 /* PlayList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
