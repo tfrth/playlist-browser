@@ -18,15 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.aButton setTitle:@"press me!" forState:UIControlStateNormal];
-   
-    Playlist *playlist = [[Playlist alloc] initWithIndex:0];
-    self.playlistimageView0.image = playlist.playlistIcon;
-    
     
 
+    for (NSUInteger index = 0; index < self.playlistImageViews.count; index++) {
+        
+        
+        Playlist *playlist = [[Playlist alloc]initWithIndex:index];
+        
+        UIImageView *playlistImageView = self.playlistImageViews[index];
+        
+        playlistImageView.image = playlist.playlistIcon;
+        playlistImageView.backgroundColor = playlist.backgroundColor;
 
+    }
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -43,5 +49,34 @@
     
     }
 }
+
+
+
+- (IBAction)showPlaylistDetail:(id)sender {
+
+    [self performSegueWithIdentifier:@"showPlaylistDetail" sender:sender];
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end
