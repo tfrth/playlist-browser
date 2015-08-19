@@ -7,6 +7,7 @@
 //
 
 #import "PlaylistDetailViewController.h"
+#import "Playlist.h"
 
 @interface PlaylistDetailViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.buttonPressLabel.text = self.segueLabelText;
+    if (self.playlist) {
+        self.buttonPressLabel.text = self.playlist.playlistTitle;
+    }
 }
 
 - (void)didReceiveMemoryWarning {

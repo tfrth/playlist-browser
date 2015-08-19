@@ -1,5 +1,5 @@
 //
-//  PlayList.h
+//  Playlist.h
 //  Algorhythm
 //
 //  Created by Tyler Frith on 8/4/15.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface PlayList : NSObject
+@interface Playlist : NSObject
 
 @property (strong, nonatomic) NSString *playlistTitle;
 @property (strong, nonatomic) NSString *playlistDescription;

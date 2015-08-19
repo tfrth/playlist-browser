@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class Playlist; //forwward declaration 
+
 @interface PlaylistDetailViewController : UIViewController //subclass of UIViewController, inherits from it.
 
+
+
 @property (weak, nonatomic) IBOutlet UILabel *buttonPressLabel;
-@property (strong, nonatomic) NSString *segueLabelText;
+@property (strong, nonatomic) Playlist *playlist;
 
 
 @end

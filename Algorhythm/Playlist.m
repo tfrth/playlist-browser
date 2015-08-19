@@ -6,11 +6,11 @@
 //  Copyright (c) 2015 tfrth. All rights reserved.
 //
 
-#import "PlayList.h"
+#import "Playlist.h"
 #import "MusicLibrary.h"
 
 
-@implementation PlayList
+@implementation Playlist
 
 - (instancetype)initWithIndex: (NSUInteger)index { //use index value/parameter to access music library array
     self = [super init]; //calls super class initializer
@@ -50,3 +50,5 @@
 };
 
 @end
+
+
