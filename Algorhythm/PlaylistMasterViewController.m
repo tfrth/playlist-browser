@@ -43,10 +43,15 @@
     
     if ([segue.identifier isEqualToString:@"showPlaylistDetail"]) {
         
-        PlaylistDetailViewController *playlistDetailController = (PlaylistDetailViewController *)segue.destinationViewController;
+        UIImageView *playlistImageView = (UIImageView *) [sender view];
         
-        playlistDetailController.playlist = [[Playlist alloc] initWithIndex:0];
-    
+        if ([self.playlistImageViews containsObject:playlistImageView]) {
+            NSUInteger index = [self.playlistImageViews indexOfObject:playlistImageView];
+            
+            PlaylistDetailViewController *playlistDetailController = (PlaylistDetailViewController *)segue.destinationViewController;
+            
+            playlistDetailController.playlist = [[Playlist alloc] initWithIndex:index];
+        }
     }
 }
 
